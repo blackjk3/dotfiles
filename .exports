@@ -20,9 +20,10 @@ export PATH=$PATH:$HOME/.rvm/bin
 
 # MySQL
 export MYSQL_BIN=/usr/local/mysql/bin;
+export USR_BIN=/usr/bin/
 export PATH=$PATH:$MYSQL_BIN
 export MYSQL_LIB=/usr/local/mysql/lib:
-export PATH=$PATH:$MYSQL_LIB
+export PATH=$PATH:$MYSQL_LIB:$USR_BIN
 
 # PostgreSQL
 export PATH=$PATH:/Library/PostgreSQL/9.1/bin/
