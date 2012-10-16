@@ -16,7 +16,18 @@ export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 # export PATH=$PATH:$ANDROID_TOOLS
 
 # Add RVM to PATH for scripting
-export USR_LOCAL=/usr/local
+PATH=/opt/local/bin
+
+PATH=$PATH:/opt/local/sbin
+PATH=$PATH:/usr/local
+PATH=$PATH:/usr/local/sbin
+PATH=$PATH:/Applications/ColdFusion9/bin/
+PATH=$PATH:/usr/local/bin
+PATH=$PATH:/usr/bin
+PATH=$PATH:/usr/sbin
+PATH=$PATH:/bin
+
+export PATH
 export PATH=$PATH:$HOME/.rvm/bin:$USR_LOCAL
 
 # MySQL
