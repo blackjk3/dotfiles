@@ -44,8 +44,8 @@ plugins=(svn git)
 source $ZSH/oh-my-zsh.sh
 
 # Legacy / Stuff no longer used
-alias mapachectl='/Applications/MAMP/Library/bin/apachectl'
-alias ffb2g="/Applications/FirefoxNightly.app/Contents/MacOS/firefox -profile /Users/rarneson/Sites/b2g/gaia/profile -no-remote http://homescreen.gaiamobile.org"
-alias adb="/Users/rarneson/Documents/android-sdk-macosx/platform-tools/adb"
+#alias mapachectl='/Applications/MAMP/Library/bin/apachectl'
+#alias ffb2g="/Applications/FirefoxNightly.app/Contents/MacOS/firefox -profile /Users/kadrm002/Sites/b2g/gaia/profile -no-remote http://homescreen.gaiamobile.org"
+#alias adb="/Users/kadrm002/Documents/android-sdk-macosx/platform-tools/adb"
 
-source ~/.rvm/scripts/rvm
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM 

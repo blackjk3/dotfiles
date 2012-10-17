@@ -29,6 +29,7 @@ PATH=$PATH:/bin
 
 export PATH
 export PATH=$PATH:$HOME/.rvm/bin
+export PATH=~/.rvm/bin:$PATH
 
 # MySQL
 export MYSQL_BIN=/usr/local/mysql/bin;
