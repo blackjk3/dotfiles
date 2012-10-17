@@ -43,16 +43,15 @@ export ARCHFLAGS='-arch x86_64'
 
 # Oracle
 export NLS_LANG="AMERICAN_AMERICA.UTF8"
-export ORACLE_HOME=/opt/oracle/instantclient
+export ORACLE_HOME=/usr/local/oracle/instantclient
 export DYLD_LIBRARY_PATH=$ORACLE_HOME
-export LD_LIBRARY_PATH=/opt/oracle/instantclient
-export SQLPATH=/opt/oracle/instantclient
-export TNS_ADMIN=/opt/oracle/network/admin
+export LD_LIBRARY_PATH=/usr/local/oracle/instantclient
+export SQLPATH=/usr/local/oracle/instantclient
+export TNS_ADMIN=/usr/local/oracle/network/admin
 export PATH=$PATH:$ORACLE_HOME
 export PATH=$PATH:$DYLD_LIBRARY_PATH
-export RC_ARCHS=i386
 
-export ORACLE_BIN=/opt/oracle/instantclient;
+export ORACLE_BIN=/usr/local/oracle/instantclient;
 export PATH=$PATH:$ORACLE_BIN
 
 # SVN
