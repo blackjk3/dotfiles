@@ -28,8 +28,8 @@ PATH=$PATH:/usr/sbin
 PATH=$PATH:/bin
 
 export PATH
-export PATH=$PATH:$HOME/.rvm/bin
 export PATH=~/.rvm/bin:$PATH
+export PATH=~/.rvm/gems/ruby-1.9.3-p286-i386/bin:$PATH
 
 # MySQL
 export MYSQL_BIN=/usr/local/mysql/bin;

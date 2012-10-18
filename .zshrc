@@ -48,4 +48,4 @@ source $ZSH/oh-my-zsh.sh
 #alias ffb2g="/Applications/FirefoxNightly.app/Contents/MacOS/firefox -profile /Users/kadrm002/Sites/b2g/gaia/profile -no-remote http://homescreen.gaiamobile.org"
 #alias adb="/Users/kadrm002/Documents/android-sdk-macosx/platform-tools/adb"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
