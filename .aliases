@@ -90,7 +90,7 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 # ColdFusion stuff
 #alias jrun='/Applications/JRun4/bin/jrun'
 #alias cfsolr='/Applications/JRun4/servers/cfusion/cfusion-ear/cfusion-war/WEB-INF/cfusion/solr/cfsolr'
-alias coldfusion='/Applications/ColdFusion9/bin/coldfusion'
+alias coldfusion='/Applications/ColdFusion10/cfusion/bin/coldfusion'
 alias cfsolr='/Applications/ColdFusion9/solr/cfsolr'
 
 # ZSH shell stuff
