@@ -105,3 +105,12 @@ alias hosts="subl /etc/hosts"
 # Rails stuff
 alias restart="touch tmp/restart.txt" # Restart the instance of Passenger
 alias rmigc="rake db:migrate && rake db:test:clone"
+
+#
+# Misc stuff
+#
+
+# Virtual Box
+alias dev="ssh kadrm002@192.168.56.101"
+
+
