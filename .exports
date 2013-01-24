@@ -53,7 +53,7 @@ export PATH=$PATH:$ORACLE_HOME
 export PATH=$PATH:$DYLD_LIBRARY_PATH
 
 export ORACLE_BIN=/usr/local/oracle/instantclient;
-export PATH=$PATH:$ORACLE_BIN
+export PATH=$PATH:$ORACLE_BIN:/usr/local/bin
 
 # SVN
 export SVN_EDITOR='vim'
